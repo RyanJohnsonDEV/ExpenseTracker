@@ -1,0 +1,44 @@
+.expense-item {
+  display: flex;
+  background-color: #4f4f4f;
+  height: fit-content;
+  align-items: center;
+  font-size: 30px;
+  padding: 20px;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.expense-item__description {
+  display: flex;
+  align-items: center;
+}
+
+.expense-item__description h2 {
+  font-size: 35px;
+  padding-left: 25px;
+  color: white;
+}
+
+.expense-item__price {
+  position: absolute;
+  font-weight: bold;
+  right: 75px;
+  background-color: #18122b;
+  color: white;
+  padding: 20px 15px 20px 15px;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.fa-trash-can {
+  position: absolute;
+  right: 25px;
+  top: auto;
+  transform: translateY(-50%);
+  transition: color 0.15s;
+}
+.fa-trash-can:hover {
+  color: #18122b;
+  cursor: pointer;
+}

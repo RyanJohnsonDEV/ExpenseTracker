@@ -1,0 +1,70 @@
+.addExpense-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  font-size: 35px;
+  padding: 2rem 20%;
+}
+
+.control {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+  margin: 0 1rem;
+}
+
+.control label {
+  font-weight: bold;
+}
+
+.control input {
+  font-size: 35px;
+  width: 30vw;
+  margin: 1rem 0;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.newExpenseBtn {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.addExpense-actions {
+  padding: 2rem 11%;
+  text-align: right;
+}
+
+button {
+  padding: 1.5rem;
+  font-size: 25px;
+  background-color: #0a2647;
+  border-style: none;
+  border: 2px solid white;
+  color: white;
+  border-radius: 15px;
+  transition: background-color 0.15s;
+}
+
+button:hover {
+  background-color: #144272;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  margin-right: 2rem;
+}
+
+.dummyData {
+  margin-right: 2rem;
+  background-color: #144272;
+}
+
+.dummyData:hover {
+  background-color: #205295;
+}
+
+.hide {
+  display: none;
+  opacity: 0;
+}
